@@ -1,7 +1,7 @@
 # E-commerce Back-end
   
   ## Description:
-  
+  This is the backend of an E-commerce site. We took a working Express.js setup and created the databases table associations. Then, the CRUD routes were created for each of the   3 tables, Categories, Products and Tags.
   
 
   # Table of Contents
@@ -18,17 +18,17 @@
 
   ## Installation:
 
-  Clone or download the repository to your machine. Initiate with ```npm i```. Setup the database with ```mysql -u root -p``` and enter you mysql password. Once there, run the     ```source db/schema.sql``` code to create the database tables, then ```quit``` my sql. In Node, run ```npm run seed``` to seed the tables with data. There after you can start   the program with ```npm start```
+  Clone or download the repository to your machine. Initiate with ```npm i```. Setup the database with ```mysql -u root -p``` and enter you mysql password. Once there, run the     ```source db/schema.sql``` code to create the database tables, then ```quit``` my sql. In Node, run ```npm run seed``` to seed the tables with data. There after you can     start   the program with ```npm start```
 
 
 ## Technologies
   - JavaScript
   - Node js
-  - Express js
+  - Sequelize
   - MYSQL
   
   ## Usage:
-  
+  Use this to test the api and crud methods in insomnia for this ecommerce app.
  
 
 
@@ -51,7 +51,7 @@
   The project is open-source
 
   ## Walkthrough
-  [Walkthrough Video](https://youtu.be/IeB5M2VBy8c)
+  [Walkthrough Video](https://youtu.be/o0JNtVv61dE)
   
   ## Tests:
 
